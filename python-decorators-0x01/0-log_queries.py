@@ -21,3 +21,5 @@ def fetch_all_users(query):
 
 users = fetch_all_users(query="SELECT * FROM users")
 print(users)
+
+"from datetime import datetime"
