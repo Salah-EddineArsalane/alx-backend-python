@@ -20,3 +20,5 @@ with DatabaseConnection() as cursor:
     results = cursor.fetchall()
     for row in results:
         print(row)
+
+["__init__"]
